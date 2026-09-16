@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 50px;
+  padding: 0;
+}
+
+/* Style headings */
+h1 {
+  color: #333;
+  font-size: 36px;
+}
+
+h2 {
+  color: #555;
+  font-size: 28px;
+}
+
+/* Style paragraphs */
+p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6; /* Makes text easier to read */
+}
+
+/* Style links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Underline when you hover mouse */
+}
+
+/* Style buttons */
+button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #004499;
+}
+
+/* Style a simple box/container */
+.box {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
